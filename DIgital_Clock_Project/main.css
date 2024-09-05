@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+@import url('https://fonts.cdnfonts.com/css/digital-numbers');
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.blinking-text {
+    animation: blink 1s infinite;
+}
+.digital-font {
+    font-family: 'Digital Numbers', sans-serif;
+    color: red;
+}
+body{
+    height: 100%;
+    background-color: black;
+    color: ghostwhite;
+    align-content: center;
+}
+
+.outline1{
+    border: 10px groove whitesmoke;
+    height: 570px;
+    width: 96%;
+    margin: 1%;
+    align-content: center;
+    border-radius: 2%;
+}
+.outline2{
+    border-radius: 6%;
+    border: 5px groove gray;
+    height: 80%;
+    width: 90%;
+    margin: 2%;
+    padding: 2%;
+    align-content: center;
+}
+.date-align{
+    align-content: center;
+}
+.date-display{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 2px;
+    margin-left: 98px;
+    font-size: 50px;
+    display: flex;
+    width: 80%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.date-display > div{
+    margin-left: 110px;
+}
+.year{
+    padding-left: 25px;
+}
+.date-section{
+    margin-left: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+.date-section > span{
+    margin-left: 15%;
+    align-content: center;
+    align-self: center;
+}
+.time-section{
+    margin-left: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.time-section > span{
+    margin-left: 14%;
+    align-content: center;
+    align-self: center;
+}
+.time-display{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 98px;
+    font-size: 50px;
+    display: flex;
+    width: 80%;
+}
+.time-display > span{
+    margin-left: 30px;
+}
+
+.hour {
+    margin-left: 110px;
+}
+.minute{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.second{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+#ampm{
+    font-size: 25px;
+    padding: 17px;
+}
+
+.days-section{
+    display: flex;
+    margin: 20px;
+    margin-left: 65px;
+    padding: 10px;
+}
+
+.days-section > label{
+    padding-left: 40px;
+}
+.days-section > input[type='radio']{
+    background-color: red;
+    border: 2px solid red;
+}
+#name{
+    font-size: 20px;
+    width: 30%;
+    margin: 20px;
+    margin-top: 80px;
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Clock</title>
     <link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
-    <!-- <meta http-equiv="refresh" content="1"> -->
+    <meta http-equiv="refresh" content="1">
     <link rel="stylesheet" href="main.css">
 
 </head>

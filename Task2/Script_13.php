@@ -3,5 +3,5 @@
 <?php
 $c = 25;
 $f = ($c * 9/5) + 32;
-echo $c . "Celsius is equal to " . $f . "Fahrenheit";
+echo $c . " Celsius is equal to " . $f . " Fahrenheit";
 ?>

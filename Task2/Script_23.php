@@ -5,10 +5,10 @@
   $no3 = 50;
 
   // Find the largest number
-  if($no1>$no2 && $no1>$no3){
+  if($no1 > $no2 && $no1 > $no3){
     $largest = $no1;
   }
-  elseif(&no2>&no1 && $no2>$no3){
+  elseif($no2 > $no1 && $no2>$no3){
     $largest = $no2;
   }
   else{

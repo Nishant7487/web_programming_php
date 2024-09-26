@@ -1,10 +1,11 @@
 <!-- • Script_11: Create a PHP script that checks whether a given number is even or odd and displays the result. -->
 
 <?php
-$number = 4;
-if ($number % 2 == 0) {
-    echo $number . " is even.";
-} else {
-    echo $number . " is odd.";
+$num = 4;
+if ($num % 2 == 0) {
+    echo $num . " is even.";
+} 
+else {
+    echo $num . " is odd.";
 }
 ?>

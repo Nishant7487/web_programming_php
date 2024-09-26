@@ -19,13 +19,13 @@
 
         // Find the largest number
       if($no1>$no2 && $no1>$no3){
-        $largest = $a;
+        $largest = $no1;
       }
       elseif(&no2>&no1 && $no2>$no3){
-        $largest = $b;
+        $largest = $no2;
       }
       else{
-        $largest = $c;
+        $largest = $no3;
       }
 
       echo "<br>The largest number is: " . $largest;
